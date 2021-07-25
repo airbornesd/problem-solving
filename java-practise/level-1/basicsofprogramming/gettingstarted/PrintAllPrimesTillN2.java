@@ -2,7 +2,7 @@ package basicsofprogramming.gettingstarted;
 
 import java.util.Scanner;
 
-public class PrintAllPrimesTillN {
+public class PrintAllPrimesTillN2 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int lowLimit = scn.nextInt();
@@ -12,21 +12,21 @@ public class PrintAllPrimesTillN {
 
             int count = 0;
 
-            for (int j = 2; j < i; j++) { // j = 1
+            // why 2? because, 1 is factor of every number.
+            // what i used(only diff): for (int j = 2; j < i; j++)
+            // by using this statement time complexity gets reduce
+            for (int j = 2; j * j <= i; j++) {
                 if (i % j == 0) {
                     count++;
-                    // breaks the statement
+                    // Using Break statement ends the loop as early condition get false
                     break;
                 }
             }
 
-            if (count == 0) {   // count == 1
+            if (count == 0) {
                 System.out.println(i);
             }
 
         }
     }
 }
-// Brute force method; Time Complexity high
-// line23: count == 0 indicates that other than all number getting output, those will be having factor more than 1
-// using j * j whole time complexity getting reduce! how? don't know.
