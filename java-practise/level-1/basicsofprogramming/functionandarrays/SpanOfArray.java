@@ -11,7 +11,27 @@ public class SpanOfArray {
         for (int i = 0; i < n; i++){
             arr[i] = scn.nextInt();
         }
-        System.out.println(arr);
+        int max = arr[0];
+        int min = arr[0];
+
+        int j = 1;
+        while (j < arr.length ){
+            if ( max < arr[j] ){
+                max = arr[j];
+            }
+            j++;
+        }
+
+        int k = 1;
+        while (k < arr.length ){
+            if ( min > arr[k] ){
+                min = arr[k];
+            }
+            k++;
+        }
+
+        int span = max - min;
+        System.out.println(span);
 
     }
 }
