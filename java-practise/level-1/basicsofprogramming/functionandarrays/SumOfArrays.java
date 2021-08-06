@@ -19,15 +19,46 @@ public class SumOfArrays {
             a2[i] = scn.nextInt();
         }
 
-        int lengthOfa3 = 0;
-        if (a1.length > a2.length) {
-            lengthOfa3 = a1.length + 1;
-        } else {
-            lengthOfa3 = a2.length + 1;
-        }
-        int[] a3 = new int[lengthOfa3];
 
-        for (int )
+        int sz = Math.max(n1, n2) + 1;
+        int[] ans = new int[sz];
+
+        int i = a1.length - 1;
+        int j = a2.length - 1;
+        int k = ans.length - 1;
+        int carry = 0;
+
+        while (k >= 0) {
+            int sum = carry;
+
+            if (i >= 0){
+                sum = sum + a1[i];
+            }
+            if (j >= 0){
+                sum = sum + a2[j];
+            }
+
+            if (k < 10) {
+                carry = 0;
+            } else {
+                carry = 1;
+                sum = sum - 10;
+            }
+            ans[k] = sum;
+            i--;
+            j--;
+            k--;
+
+        }
+
+        for (i = 0; i < ans.length; i++){
+            if (i == 0 && ans[0] == 0){
+
+            } else {
+                System.out.println(ans[i]);
+            }
+        }
+
 
     }
 }
