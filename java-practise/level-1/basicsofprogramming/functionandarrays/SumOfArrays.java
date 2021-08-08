@@ -38,7 +38,7 @@ public class SumOfArrays {
                 sum = sum + a2[j];
             }
 
-            if (k < 10) {
+            if (sum < 10) {
                 carry = 0;
             } else {
                 carry = 1;
