@@ -12,5 +12,7 @@ public class SubarrayProblem {
         }
 
 
+        // tobe completed after doing star print pattern questions
+
     }
 }
