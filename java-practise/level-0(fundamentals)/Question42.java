@@ -1,8 +1,9 @@
-package basicsofprogramming.array2d;
+// To print 2d array like: wave traversal
+// row by row
 
 import java.util.Scanner;
 
-public class TheStateOfWakanda {
+public class Question42 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -15,14 +16,13 @@ public class TheStateOfWakanda {
             }
         }
 
-        // whenever want to print column first use column loop outside the loop of row
-        for (int j = 0; j < arr[0].length; j++) {
-            if (j % 2 == 0) {
-                for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < arr.length; i++) {
+            if (i % 2 == 0) {
+                for (int j = 0; j < arr[0].length; j++) {
                     System.out.println(arr[i][j]);
                 }
             } else {
-                for (int i = arr.length - 1; i >= 0; i--) {
+                for (int j = arr[0].length - 1; j >= 0; j--) {
                     System.out.println(arr[i][j]);
                 }
             }

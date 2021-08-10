@@ -2,7 +2,7 @@ package basicsofprogramming.array2d;
 
 import java.util.Scanner;
 
-public class TheStateOfWakanda {
+public class SpiralDisplay {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
@@ -15,17 +15,13 @@ public class TheStateOfWakanda {
             }
         }
 
-        // whenever want to print column first use column loop outside the loop of row
         for (int j = 0; j < arr[0].length; j++) {
-            if (j % 2 == 0) {
-                for (int i = 0; i < arr.length; i++) {
-                    System.out.println(arr[i][j]);
-                }
-            } else {
-                for (int i = arr.length - 1; i >= 0; i--) {
-                    System.out.println(arr[i][j]);
-                }
+            for (int i = 0; i < arr.length; i++) {
+                System.out.println(arr[i][j]);
             }
         }
+
+        // will complete after more practice of array and patterns
+
     }
 }
