@@ -6,7 +6,7 @@
 
 | Question Number             | Problem       | Code  |
 | ------------- |:-------------:| -----:|
-| 1 | Introduction to Scanner Class|[Code](problem-solving/java-practise/level-0(fundamentals)/Question1.java ) |
+| 1 | Introduction to Scanner Class|[Code](https://github.com/airbornesd/problem-solving/blob/main/java-practise/level-0(fundamentals)/Question1.java) |
 | 2 | | |
 | 3 | | |
 | 4 | | |
