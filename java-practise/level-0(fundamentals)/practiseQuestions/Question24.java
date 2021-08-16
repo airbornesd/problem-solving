@@ -1,5 +1,5 @@
 package practiseQuestions;/*
- Write a C program to count number of digits in a number.
+ Write a Java program to count number of digits in a number.
  */
 
 import java.util.Scanner;
