@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class DigitFrequency {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
-        int d = scn.nextInt();
+        int n = scn.nextInt(); // number n given
+        int d = scn.nextInt(); // frequency of digit d
         int f = getDigitFrequency(n, d);
         System.out.println(f);
     }

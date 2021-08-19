@@ -7,12 +7,12 @@ public class AnyBaseToDecimal {
         Scanner scn = new Scanner(System.in);
         int n = scn.nextInt();
         int b = scn.nextInt();
-        int d = getValueIndecimal(n, b);
+        int d = getValueInDecimal(n, b);
         System.out.println(d);
     }
 
     // Any Base To Decimal
-    public static int getValueIndecimal(int n, int b) {
+    public static int getValueInDecimal(int n, int b) {
         int decimalValue = 0;
         int count = 0;
         while (n != 0) {

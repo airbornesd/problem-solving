@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class AnyBaseToAnyBase {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        int n = scn.nextInt();
+        int n = scn.nextInt(); // number n of base b1
         int b1 = scn.nextInt();
-        int b2= scn.nextInt();
+        int b2= scn.nextInt(); // n of base b1 to be converted to base b2
 
         int m = anyBaseToDecimal(n, b1);
         int ans = decimalToAnyBase(m, b2);

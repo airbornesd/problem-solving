@@ -28,8 +28,8 @@ public class AnyBaseAddition {
 
         int count = 0;
         while (n1 != 0) {
-            int quotient = 0;
-            int remainder = 0;
+            int quotient = 0; // this would be used as carry
+            int remainder = 0; // this would be used as sum
 
             int num1 = n1 % 10;
             int num2 = n2 % 10;
@@ -40,7 +40,7 @@ public class AnyBaseAddition {
                 quotient = lastDigitSum / base;
                 remainder = lastDigitSum % base;
             } else {
-                quotient = 0;
+                // quotient = 0;
                 remainder = lastDigitSum;
             }
 
