@@ -25,3 +25,5 @@ public class FindElementInAnArray {
 
     }
 }
+
+// linear search
