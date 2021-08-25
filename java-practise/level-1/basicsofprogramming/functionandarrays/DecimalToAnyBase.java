@@ -13,8 +13,7 @@ public class DecimalToAnyBase {
 
     // Decimal to any base
     public static int getValueInBase(int n, int b) {
-        int remTemp = 0;
-        int count = 0;
+        int remTemp = 0, count = 0;
         while (n != 0) {
             int rem = n % b;
             n = n / b;

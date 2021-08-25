@@ -12,3 +12,5 @@ public class Problem1 {
 
     }
 }
+
+// ans: 233168
