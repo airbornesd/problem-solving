@@ -12,6 +12,28 @@ public class BrokenEconomy {
         }
         int data = scn.nextInt();
 
+        int ceil = -1;
+        int floor = -1;
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            if (arr[mid] == data) {
+                ceil = data;
+                floor = data;
+            } else if (arr[mid] > data) {
+                ceil = arr[mid];
+                right = mid - 1;
+            } else {
+                floor = arr[mid];
+                left = mid + 1;
+            }
+        }
+
+        System.out.println(ceil);
+        System.out.println(floor);
     }
 }
 // to be completed
