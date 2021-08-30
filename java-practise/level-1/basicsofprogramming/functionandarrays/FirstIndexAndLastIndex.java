@@ -7,3 +7,5 @@ public class FirstIndexAndLastIndex {
         Scanner scn = new Scanner(System.in);
     }
 }
+
+// to be completed
