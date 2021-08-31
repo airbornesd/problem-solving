@@ -15,13 +15,38 @@ public class SpiralDisplay {
             }
         }
 
-        for (int j = 0; j < arr[0].length; j++) {
-            for (int i = 0; i < arr.length; i++) {
-                System.out.println(arr[i][j]);
+        int rMin = 0, cMin = 0, rMax = n - 1, cMax = m - 1, counter = 0;
+        while (counter < n * m) {
+            //left boundary
+            for (int row = rMin; row <= rMax && counter < n * m; row++) {
+                System.out.println(arr[row][cMin]);
+                counter++;
             }
-        }
+            cMin++;
 
-        // will complete after more practice of array and patterns
+            //bottom boundary
+            for (int col = cMin; col <= cMax && counter < n * m; col++) {
+                System.out.println(arr[rMax][col]);
+                counter++;
+            }
+            rMax--;
+
+            //right boundary
+            for (int row = rMax; row >= rMin && counter < n * m; row--) {
+                System.out.println(arr[row][cMax]);
+                counter++;
+            }
+            cMax--;
+
+            //top boundary
+            for (int col = cMax; col >= cMin && counter < n * m; col--) {
+                System.out.println(arr[rMin][col]);
+                counter++;
+            }
+            rMin++;
+
+        }
+        // completed
 
     }
 }
