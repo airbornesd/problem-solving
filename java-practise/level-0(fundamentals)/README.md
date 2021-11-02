@@ -49,4 +49,4 @@
 | 41 | rotate array k times| function, array |  [Code](https://github.com/airbornesd/problem-solving/blob/main/java-practise/level-0(fundamentals)/practiseQuestions/Question41.java) |
 | 42 | 2d array; wave traversal| 2D-array |  [Code](https://github.com/airbornesd/problem-solving/blob/main/java-practise/level-0(fundamentals)/practiseQuestions/Question42.java) |
 | 43 | print pattern(P5)| |  [Code](https://github.com/airbornesd/problem-solving/blob/main/java-practise/level-0(fundamentals)/practiseQuestions/Question43.java) |
-
+| 44 | | | |
