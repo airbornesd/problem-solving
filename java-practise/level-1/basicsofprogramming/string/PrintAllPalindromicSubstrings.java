@@ -15,3 +15,4 @@ public class PrintAllPalindromicSubstrings {
         solution(str);
     }
 }
+
