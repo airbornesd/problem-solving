@@ -22,7 +22,7 @@ public class IsAPrimeNumber {
                 }
             }
 
-            if ( x > 2 || t == 0 || t == 1) {
+            if ( x > 2 || t == 0 ) {
                 System.out.println("not prime");
             } else {
                 System.out.println("prime");
