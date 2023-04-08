@@ -1,7 +1,7 @@
 package lecture28;
 
 public class Stack {
-    private int[] arr;
+    protected int[] arr;
     private int toss;
 
     public Stack() {
@@ -23,7 +23,7 @@ public class Stack {
     }
 
     public void push(int item) throws Exception {
-        if(isFull()) {
+        if (isFull()) {
             throw new Exception("Bklol");
         }
         toss++;
@@ -35,7 +35,7 @@ public class Stack {
     }
 
     public int pop() throws Exception {
-        if(isEmpty()) {
+        if (isEmpty()) {
             throw new Exception("Bklol");
         }
         int val = arr[toss];
@@ -44,7 +44,7 @@ public class Stack {
     }
 
     public int peek() throws Exception {
-        if(isEmpty()) {
+        if (isEmpty()) {
             throw new Exception("Bklol");
         }
         int val = arr[toss];
