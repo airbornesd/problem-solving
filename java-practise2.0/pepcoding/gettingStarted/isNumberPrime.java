@@ -16,6 +16,8 @@ public class isNumberPrime {
             // bcoz after divide the number by 2 it doesn't make sense to carry on extra loop which will always be resulting
             // in not useful value
             for (int j = 1; j <= prime / 2; j++) {
+                // for better optimise code use:
+                // (int j = 2; j * j <= prime; j++)
 
                 // we are mod so,
                 // 7 mod 1 = 0 || 7 mod 2 = 1 || 7 mod 3 = 1 || 7 mod 4 = 3
