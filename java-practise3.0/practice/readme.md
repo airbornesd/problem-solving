@@ -8,9 +8,7 @@
 | 6 | gcd and lcm | [link](https://practice.geeksforgeeks.org/problems/gcd-lcm-and-distributive-property4419/1) | basics | if-else, loops, array | easy | logic building, euclidean algorithm |
 | 7 | prime factorisation | [link](https://practice.geeksforgeeks.org/problems/prime-factors5052/1) | basics | if-else, loops | easy | - |
 | 8 | int-String-Integer.parse | - | basics | java, input | imp | - |
-| 9 | arrays intro | - | basics | java, array | school | - |
-
-
+| 9 | arrays intro | - | arrays | java, array | school | - |
 
 
 
