@@ -2,7 +2,7 @@ package questions;
 
 import java.util.ArrayList;
 
-public class question2 {
+public class question002 {
     public static void main(String[] args) {
         int m  = 1;
         int n = 10;

@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Scanner;
 
-public class question8 {
+public class question008 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         // this is a slight bug in java

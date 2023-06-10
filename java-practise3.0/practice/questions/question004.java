@@ -1,6 +1,6 @@
 package questions;
 
-public class question4 {
+public class question004 {
     public static void main(String[] args) {
         int n = 0;
         // counting digit;

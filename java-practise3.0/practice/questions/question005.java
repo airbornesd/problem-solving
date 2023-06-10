@@ -2,7 +2,7 @@ package questions;
 
 import java.util.ArrayList;
 
-public class question5 {
+public class question005 {
     public static void main(String[] args) {
         int[] arr = {4, 2, 6, 1, 3, 5};
         int n = arr.length;

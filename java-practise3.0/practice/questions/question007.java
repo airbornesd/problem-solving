@@ -3,7 +3,7 @@ package questions;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class question7 {
+public class question007 {
     public static void main(String[] args) {
         int n = 1000;
         System.out.println(Arrays.toString(primeFactor(n)));

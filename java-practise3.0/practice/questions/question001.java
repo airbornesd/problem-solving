@@ -1,6 +1,6 @@
 package questions;
 
-public class question1 {
+public class question001 {
     public static void main(String[] args) {
         int n = 10;
         System.out.println(isPrime(n));

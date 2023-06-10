@@ -2,7 +2,7 @@ package questions;
 
 import java.util.Arrays;
 
-public class question3 {
+public class question003 {
     public static void main(String[] args) {
         int n = 7;
         System.out.println(Arrays.toString(printFib(n)));
